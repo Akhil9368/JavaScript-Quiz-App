@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="inner">
+            <h1 id="Question">Question</h1>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="answer1" class="option">
+                    <label for="answer1" id="option1"> option1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="answer2" class="option">
+                    <label for="answer2" id="option2"> option1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="answer3" class="option">
+                    <label for="answer3" id="option3"> option1</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="answer4" class="option">
+                    <label for="answer4" id="option4"> option1</label>
+                </li>
+            </ul>
+            <button id="Submit" >Submit</button>
+            <div class="scorecheck" id="score-check" >
+                <h3>Score : <span id="span-score">0</span> &nbsp; &#9996;</h3>
+                <button id="play_again" onclick="backquestion()">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
