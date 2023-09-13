@@ -26,7 +26,7 @@ const Quiz_Questions = [{
 
 },
 {
-    Question: "What is the capital of Banglore",
+    Question: "What is the capital of Karnataka",
     a: "Mysore",
     b: "Banglore",
     c: "Hubli",
